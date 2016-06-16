@@ -1,0 +1,29 @@
+{
+    "name": "easy-system/es-template",
+    "description": "Easy System Template",
+    "authors": [
+        {
+            "name": "Damon Smith",
+            "email": "damon.easy.system@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "easy-system/es-component": "*",
+        "easy-system/es-services": "*",
+        "easy-system/es-events": "*",
+        "easy-system/es-container": "*",
+        "easy-system/es-mvc": "*",
+        "easy-system/es-view": "*",
+        "easy-system/es-view-helpers": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Es\\Template\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Es\\Template\\Test\\": "test/" }
+    },
+    "minimum-stability": "dev"
+}
