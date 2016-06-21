@@ -28,9 +28,7 @@ class RendererTest extends \PHPUnit_Framework_TestCase
     {
         require_once 'FakeHelper.php';
 
-        $this->files = __DIR__ . DIRECTORY_SEPARATOR
-                     . 'files' . DIRECTORY_SEPARATOR;
-
+        $this->files = __DIR__ . PHP_DS . 'files' . PHP_DS;
         if (! class_exists('Error', false)) {
             require_once 'Error.php';
         }
